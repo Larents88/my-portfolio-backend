@@ -11,10 +11,10 @@ import java.time.LocalDate;
 @NoArgsConstructor
 public class Education {
     private Long id;
-    private String degree;
-    private String institution;
+    private String degree; // "Ingenieria de sistemas"
+    private String institution; // "Universidad tal tal"
     private LocalDate startDate;
-    private LocalDate endDate;
-    private String description;
-    private Long personalInfoId;
+    private LocalDate endDate; // puede ser null si es el puesto actual
+    private String description; //descripcion de logros o cursos
+    private Long personalInfoId; //clave foranea a personalInfo
 }
